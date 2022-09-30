@@ -8,7 +8,7 @@ configure :test do
     host: 'postgres'
   }
 end
-
+   
 configure :development do
   set :database, {
     adapter: 'postgresql',
@@ -16,6 +16,6 @@ configure :development do
     database: 'onebitbot_development',
     pool: 5,
     username: 'postgres',
-    host: 'postgres',
-  }  
-end  
+    host: 'postgres'
+  }
+end 
