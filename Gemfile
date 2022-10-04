@@ -10,3 +10,13 @@ group :development do
   gem "tux"
 end 
 
+gem "factory_bot"
+gem "ffaker"
+gem "databasa_cleaner"
+
+group :test do
+  gem "rack-test", require: "rack/test"
+  gem "respec"
+ end
+  
+
