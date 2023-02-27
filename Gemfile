@@ -12,7 +12,7 @@ end
 
 gem "factory_bot"
 gem "ffaker"
-gem "databasa_cleaner"
+gem "database_cleaner"
 
 group :test do
   gem "rack-test", require: "rack/test"
